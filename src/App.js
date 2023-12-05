@@ -1,9 +1,12 @@
+// App.js
 import React from 'react';
+import ProfilForm from './ProfilForm';
+
 
 function App() {
   return (
-    <div>
-      <h1>Hello, React!</h1>
+    <div className="App">
+      <ProfilForm />
     </div>
   );
 }
